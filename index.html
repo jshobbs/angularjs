@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="techStoryReaderApp">
+	<head>
+		<title>Tech Story Dashboard</title>
+		<meta charset="utf-8">
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<img class="img-responsive" src="Banner.png" alt="Technology Banner">
+		<h1>Tech Story Feed</h1>
+		<button ui-sref="java">Java</button>
+		<button ui-sref="javascript">JavaScript</button>
+		<button ui-sref="angularjs">AngularJS</button>
+		<button ui-sref="bootstrap">Bootstrap</button>
+		<button ui-sref="css">CSS</button>
+		<div ui-view></div>
+		<script type="text/javascript" src="js/lib/angular.js"></script>
+		<script type="text/javascript" src="js/lib/angular-ui-router.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/controllers.js"></script>
+		<script type="text/javascript" src="js/services.js"></script>
+		<script type="text/javascript" src="js/directives.js"></script>
+	</body>
+</html>

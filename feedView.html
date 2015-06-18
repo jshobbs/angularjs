@@ -1,0 +1,9 @@
+<div><h2>{{title}}</h2></div>
+<div><sorter></sorter></div>
+<ul class="list-group story-list">
+  <li class="list-group-item" ng-repeat="story in stories | orderBy:predicate">
+    <span class="badge">{{story.score}}</span>
+    <a ng-href="{{story.url}}" target="_blank">{{story.title}}</a>
+    <a ng-href="{{story.commentUrl}}" target="_blank" class="right">Comment</a>
+  </li>
+</ul>
