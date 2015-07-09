@@ -8,3 +8,5 @@ on the story.
 
 This project needs to be served on some server. I used NPM http-server during development. Once 
 the server is running, open index.html to run application.
+
+The AngularJS files are included in the lib directory. Of course, a CDN could also be used.
